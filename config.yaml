@@ -1,0 +1,38 @@
+# required configuration options
+name: Vortex UI
+version: v2026.6.0
+slug: vortex_ui
+description: A modern, configurable Home Assistant dashboard
+arch:
+  - aarch64
+  - amd64
+  - armv7
+
+# disable the docker default system init
+init: false
+
+# homepage of the add-on
+url: https://github.com/xSaleGG/vortex-ui
+
+# icon for the menu panel integration
+panel_icon: mdi:weather-tornado
+
+# allow non-administration users
+panel_admin: false
+
+# security profile
+apparmor: true
+
+# ingress feature for the add-on
+ingress: true
+ingress_stream: true
+
+# enable api to get host port
+hassio_api: true
+
+# port to expose, null defaults to disabled
+ports:
+  8099/tcp: null
+
+# GitHub Container Registry
+image: ghcr.io/xsalegg/addon-vortex-ui-{arch}

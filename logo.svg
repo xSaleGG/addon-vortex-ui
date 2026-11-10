@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+	<rect width="1000" height="300" rx="28" fill="#17212b" />
+	<g transform="translate(72 46)" fill="none" stroke-linecap="round" stroke-width="18">
+		<path d="M22 30h120a84 84 0 0 1-84 84h72a84 84 0 0 1-84 84h38" stroke="#51c7b5" />
+		<path d="M30 30a84 84 0 0 0 84 84M54 198h54" stroke="#f2a45b" />
+	</g>
+	<text x="310" y="186" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="96" font-weight="700">VORTEX UI</text>
+</svg>

@@ -66,4 +66,6 @@ jobs:
           build-args: |
             BUILD_FROM=${{ matrix.base }}
             VORTEX_UI_VERSION=${{ steps.version.outputs.value }}
-          tags: ghcr.io/xsalegg/addon-vortex-ui-${{ matrix.arch }}:latest
+          tags: |
+            ghcr.io/xsalegg/addon-vortex-ui-${{ matrix.arch }}:latest
+            ghcr.io/xsalegg/addon-vortex-ui-${{ matrix.arch }}:${{ steps.version.outputs.value }}

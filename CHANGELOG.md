@@ -1,5 +1,9 @@
 # Vortex UI Add-on Changelog
 
+## 2026.11.1
+
+- Fixed Docker image builds by aligning dependencies with the project's SvelteKit and ESLint versions.
+
 ## 2026.11.0
 
 Initial release of Vortex UI, a configurable Home Assistant dashboard for wall displays and everyday use.

@@ -1,6 +1,6 @@
 # required configuration options
 name: Vortex UI
-version: 2026.11.0
+version: 2026.11.1
 slug: vortex_ui
 description: A modern, configurable Home Assistant dashboard
 arch:
